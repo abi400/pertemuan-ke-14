@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+   //menghitung luas dan keliling segiempat
+   void luas();
+   void keliling();
+
+   //sub program
+   void luas(int s){
+   int jumlah;
+   jumlah=s*s;
+   cout<<"luas persegi ="<<jumlah<<endl;
+   }
+
+   void keliling(int s){
+   int jumkel;
+   jumkel=s*4;
+   cout<<"keliling persegi ="<<jumkel<<endl;
+   }
+
+   int main()
+   {
+       int sisi;
+       cout<<"masukan sisi =";
+       cin>>sisi;
+       cout<<endl;
+       keliling(sisi);
+
+   }
+
